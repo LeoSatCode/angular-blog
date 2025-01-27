@@ -1,0 +1,51 @@
+.container-big-card {
+
+  margin-left: 20px;
+  margin-right: 20px;
+
+
+  width: 900px;
+  height: 520px;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+@font-face {
+  font-family: "Thin";
+  src: url(./fonts/VVDS-Fifties-SExp-Thin.otf);
+}
+
+@font-face {
+  font-family: "Reg";
+  src: url(./fonts/VVDS-Fifties-SExp-Reg.otf);
+}
+
+.big-card-title {
+  font-size: 15px;
+  margin-top: 0.5rem;
+}
+
+.big-card-title > h1 > a {
+  font-family: "Reg";
+  margin: 0;
+  padding: 0;
+}
+
+.big-card-description {
+  margin-top: 1rem;
+}
+
+.big-card-description > p > a {
+  font-size: 20px;
+  font-family: "Thin";
+  color: gray;
+}
+
+.big-card-photo > img {
+  width: 100%;
+  min-width: 900px;
+  max-height: 400px;
+}

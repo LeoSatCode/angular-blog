@@ -1,0 +1,47 @@
+.container-small-card {
+
+  width: 900px;
+
+
+}
+
+.container-small-card-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.small-card-photo > img {
+  width: 100%;
+  max-width: 300px;
+}
+
+@font-face {
+  font-family: "Reg";
+  src: url(./fonts/VVDS-Fifties-SExp-Reg.otf);
+}
+
+.small-card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.small-card-title > h1 {
+  margin-left: 20px;
+}
+
+.small-card-title > h1 > a {
+  font-family: 'Reg';
+  font-size: 20px;
+}
+
+.container-small-card-hr {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.small-card-hr {
+  border: 0;
+  height: 2px;
+  background-color: gray;
+}
