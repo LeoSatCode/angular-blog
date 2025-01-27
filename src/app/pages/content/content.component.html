@@ -1,0 +1,23 @@
+<div class="container-content">
+  <div class="content-title">
+    <h1>{{ newsTitle }}</h1>
+  </div>
+
+  <div class="content-cover">
+    <img [src]="photoCover" alt="">
+    <div class="content-cover-hr">
+      <hr>
+    </div>
+    <hr>
+  </div>
+
+  <div class="content-description">
+    <div *ngFor="let paragraph of newsDescription; let i = index">
+      <p [innerHTML]="paragraph"></p>
+      <ng-container *ngIf="photo && photo[i]">
+        <img [src]="photo[i]" alt="">
+      </ng-container>
+
+    </div>
+  </div>
+</div>

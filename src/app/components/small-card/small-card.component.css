@@ -23,6 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .small-card-title > h1 {
@@ -32,6 +33,7 @@
 .small-card-title > h1 > a {
   font-family: 'Reg';
   font-size: 20px;
+  font-weight: normal;
 }
 
 .container-small-card-hr {

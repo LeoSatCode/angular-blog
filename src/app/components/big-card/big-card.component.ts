@@ -17,6 +17,9 @@ export class BigCardComponent {
   @Input()
   cardDescription: string = "";
 
+  @Input()
+  cardId: string = "";
+
   constructor() {}
   ngOnInit(): void {}
 }

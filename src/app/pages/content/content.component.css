@@ -1,0 +1,85 @@
+.container-content {
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+@font-face {
+  font-family: "Reg";
+  src: url(./fonts/VVDS-Fifties-SExp-Reg.otf);
+}
+
+.content-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Reg';
+  margin-bottom: 70px;
+}
+
+.content-cover img {
+  width: 900px;
+  height: 337.5px;
+  min-width: 900px;
+  max-height: 337.5px;
+}
+
+.content-description img {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 500px;
+  max-width: 500px;
+  height: 250px;
+  max-height: 250px;
+}
+
+.content-cover-hr > hr {
+  margin-top: 10px;
+  border: 0;
+  height: 2px;
+  background: gray;
+  width: 500px;
+}
+
+.content-cover > hr {
+  margin-top: 50px;
+  border: 0;
+  height: 2px;
+  background: gray;
+  width: 500px;
+}
+
+@font-face {
+  font-family: "Thin";
+  src: url(./fonts/VVDS-Fifties-SExp-Thin.otf);
+}
+
+.content-description {
+  font-family: "Thin";
+  font-size: 1.025rem;
+  margin-top: 20px;
+  max-width: 500px;
+  height: 700px;
+  overflow-y: auto;
+}
+
+.content-description > div {
+  margin-bottom: 40px;
+}
+
+
+.content-description  p {
+  margin-top: 30px;
+}
+
+.content-description::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}

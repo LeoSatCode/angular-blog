@@ -14,6 +14,9 @@ export class SmallCardComponent {
   @Input()
   cardTitle: string = "";
 
+  @Input()
+  cardId:string = "";
+
   constructor() { }
 
   ngOnInit(): void {}

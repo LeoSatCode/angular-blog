@@ -8,13 +8,13 @@
 
   <div class="big-card-title">
     <h1>
-      <a href="">
+      <a [routerLink]="['/content', cardId]">
         {{cardTitle}}
       </a>
     </h1>
   </div>
   <div class="big-card-description">
-    <p> <a href="">
+    <p> <a [routerLink]="['/content', cardId]">
       {{cardDescription}}
     </a>
     </p>
