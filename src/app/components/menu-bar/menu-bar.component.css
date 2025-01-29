@@ -1,10 +1,20 @@
 
+@font-face {
+  font-family: "Reg";
+  src: url(./fonts/VVDS-Fifties-SExp-Reg.otf);
+}
+
 .container-menu-bar > ul {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  font-family: 'Reg';
+  display: flex;
+  justify-content: center;
 }
 
 .container-menu-bar > ul > li {
+  margin-top: 20px;
   margin-right: 20px;
   list-style: none;
 }

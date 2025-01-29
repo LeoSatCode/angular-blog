@@ -1,16 +1,3 @@
-@font-face {
-  font-family: "Reg";
-  src: url(./pages/content/fonts/VVDS-Fifties-SExp-Reg.otf);
-}
 
-
-header {
-  font-family: 'Reg';
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-
-
-}
 
 
