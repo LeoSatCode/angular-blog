@@ -1,26 +1,31 @@
 <div class="container-page">
-<app-menu-bar></app-menu-bar>
-<div class="container-content">
-  <div class="content-title">
-    <h1>{{ newsTitle }}</h1>
+  <app-menu-bar></app-menu-bar>
+  <div class="first-hr">
+    <hr />
   </div>
-
-  <div class="content-cover">
-    <img [src]="photoCover" alt="">
-    <div class="content-cover-hr">
-      <hr>
+  <div class="container-content">
+    <div class="content-title">
+      <h1>{{ newsTitle }}</h1>
     </div>
-    <hr>
+
+    <div class="content-cover">
+      <img [src]="photoCover" alt="" />
+    </div>
+
+    <div class="content-hr">
+      <hr />
+    </div>
+    <div class="second-hr">
+      <hr />
+    </div>
   </div>
 
   <div class="content-description">
     <div *ngFor="let paragraph of newsDescription; let i = index">
       <p [innerHTML]="paragraph"></p>
       <ng-container *ngIf="photo && photo[i]">
-        <img [src]="photo[i]" alt="">
+        <img [src]="photo[i]" alt="" />
       </ng-container>
-
     </div>
   </div>
-</div>
 </div>
