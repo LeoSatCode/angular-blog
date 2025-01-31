@@ -34,3 +34,13 @@
   width: 100%;
 }
 
+@media (max-width: 1024px) {
+  .container-menu-title h1 {
+    font-size: 120px;
+    margin-top: 10px;
+  }
+  .container-menu-title hr {
+    width: 950px;
+  }
+}
+

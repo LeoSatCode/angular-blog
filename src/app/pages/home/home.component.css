@@ -5,7 +5,7 @@
   margin: 0 auto;
   padding: 0;
   background-color: #111111;
-  border-radius: .5rem .5rem 0 0;
+  border-radius: 0.5rem 0.5rem 0 0;
 }
 
 .container-articles {
@@ -21,7 +21,7 @@
 
 .editor p {
   margin: 20px;
-  font-family: 'Thin';
+  font-family: "Thin";
   font-size: 15px;
   font-weight: bolder;
   color: #111111;
@@ -36,7 +36,7 @@
   max-height: 550px;
   max-width: 1394px;
   background-color: lightgrey;
-  border-radius: 0  0 .5rem .5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .card-with-hr {
@@ -49,4 +49,33 @@
   height: 345px;
   background: white;
   margin: 0 15px;
+}
+
+@media (max-width: 1024px) {
+  .container-dark {
+    width: 100%;
+    height: 768px;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .news-cards-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    border-radius: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-with-hr:not(:last-child) .vertical-hr {
+    width: 2px;
+    height: 340px;
+    background: white;
+    margin: 0 .12rem;
+    margin-top: 55px;
+  }
 }

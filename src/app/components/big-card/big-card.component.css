@@ -73,3 +73,38 @@
   font-family: "Thin";
   src: url(./fonts/VVDS-Fifties-SExp-Thin.otf);
 }
+
+@media (max-width: 1024px) {
+  .container-big-card {
+    width: 500px;
+    height: 450px;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .big-card-photo img {
+    width: 460px;
+    height: 260px;
+    max-height: 300px;
+    border-radius: 0.5rem;
+    object-fit: cover;
+  }
+  .big-card-title {
+    font-size: 12px;
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+
+  .big-card-description p {
+    font-size: 18px;
+    font-family: "Thin";
+    color: gray;
+    margin: 0;
+  }
+}
+

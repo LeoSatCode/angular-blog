@@ -83,3 +83,28 @@
   font-family: "Reg";
   src: url(./fonts/VVDS-Fifties-SExp-Reg.otf);
 }
+
+@media (max-width: 1024px) {
+  .news-card {
+    width: 160px;
+    height: 340px;
+    margin-top: 90px;
+  }
+
+  .news-photo img {
+    width: 160px;
+    height: 100px;
+
+    border-radius: .5rem;
+    object-fit: cover;
+  }
+
+  .news-title h1 {
+    font-size: 16px;
+  }
+
+  .news-description {
+    font-size: 14px;
+  }
+
+}
