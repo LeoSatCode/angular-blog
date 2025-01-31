@@ -1,48 +1,78 @@
+.container-small-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
 .container-small-card {
-  width: 900px;
+  width: 100%;
+  height: 181.5px;
+  margin-bottom: 18px;
+
+  background-color: #111111;
+  border-radius: 0.5rem;
+
+  box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.2),
+    0 2px 4px -1px rgba(255, 255, 255, 0.1);
+
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Garante espaço uniforme */
+  padding: 10px 0; /* Adiciona espaço uniforme em cima e em baixo */
+}
+
+.container-small-card:hover {
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2),
+    0 4px 8px rgba(255, 255, 255, 0.1);
+  transform: translateY(-5px);
 }
 
 .container-small-card-content {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Espaço uniforme entre itens */
+  padding: 0 15px; /* Ajusta espaçamento lateral */
+  box-sizing: border-box;
 }
 
-.small-card-photo > img {
-  width: 100%;
-  height: 140px;
+.small-card-photo img {
   width: 200px;
+  height: 140px;
+  border-radius: 0.5rem;
   object-fit: cover;
+  margin: 10px;
+}
+
+.small-card-title {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.small-card-title h1 {
+  font-family: "Reg";
+  font-size: 20px;
+  font-weight: normal;
+  color: #fff;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .container-small-card-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .small-card-title {
+    margin-left: 0;
+    margin-top: 10px;
+    text-align: center;
+  }
 }
 
 @font-face {
   font-family: "Reg";
   src: url(./fonts/VVDS-Fifties-SExp-Reg.otf);
-}
-
-.small-card-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.small-card-title > h1 {
-  margin-left: 20px;
-}
-
-.small-card-title > h1 > a {
-  font-family: 'Reg';
-  font-size: 20px;
-  font-weight: normal;
-}
-
-.container-small-card-hr {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.small-card-hr {
-  border: 0;
-  height: 2px;
-  background-color: gray;
 }

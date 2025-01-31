@@ -1,6 +1,6 @@
 .container-menu-title {
   color: white;
-  width: 1845px;
+  max-width: 1350px;
   margin: 0 auto;
 
   display: flex;

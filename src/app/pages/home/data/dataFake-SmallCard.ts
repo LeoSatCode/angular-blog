@@ -1,17 +1,17 @@
 export const dataFakeSmallCard = [
   {
     "id": "2",
-    "title": "Revitalize Sua Vida com uma Alimentação Saudável: Dicas Essenciais e Truques Simples para uma Nutrição Equilibrada",
-    "photoCover": "https://blanchospital.com.br/blog/wp-content/uploads/2021/03/iStock-1077583696-1080x675.jpg"
+    "title": "Tragédia em Washington: Avião e Helicóptero Colidem no Ar",
+    "photoCover": "https://s2-oglobo.glbimg.com/C-DTLW1TdQTJzT6ca_VWp9uJyD4=/0x0:3305x2225/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2025/z/q/1G9FSXSr6fzsYlRWB9oA/109861461-arlington-virginia-january-30-emergency-divers-respond-after-a-passenger-aircraft-collid.jpg"
   },
   {
     "id": "3",
-    "title": "Tecnologia e Bem-Estar: Como as Inovações Digitais Podem Melhorar sua Qualidade de Vida",
-    "photoCover": "https://baggout.com/wp-content/uploads/2021/11/1-1.jpeg"
+    "title": "Ataques no Transporte Público de Nova York Deixam Passageiros Apreensivos",
+    "photoCover": "https://classic.exame.com/wp-content/uploads/2024/03/Metronovayork.jpg?ims=750x/filters:quality(85):format(webp)"
   },
   {
     "id": "4",
-    "title": "Rumo à Liberdade Financeira: Estratégias Práticas para Construir sua Independência Econômica",
-    "photoCover": "https://www.creditsesame.com/wp-content/uploads/2022/07/Financial-independence_AdobeStock_423722870.jpeg"
-  }
+    "title": "Neymar Oficializa Retorno ao Santos: 'Um Orgulho que Nem Todos Podem Ter'",
+    "photoCover": "https://th.bing.com/th?id=OIF.RPdUF6GR%2f6AX4yCW1YKKRg&w=220&h=180&c=7&r=0&o=5&pid=1.7"
+  },
 ];

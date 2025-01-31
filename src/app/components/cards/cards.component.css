@@ -1,0 +1,85 @@
+
+.news-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+
+.news-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 35px 20px;
+  background-color: lightgray;
+  width: 215px;
+  height: 360px;
+  border-radius: 5px;
+
+  box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.2),
+    0 2px 4px -1px rgba(255, 255, 255, 0.1);
+
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.news-card:hover {
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2),
+    0 4px 8px rgba(255, 255, 255, 1);
+  transform: translateY(-5px);
+}
+
+
+.news-photo img {
+  width: 215px;
+  height: 200px;
+  max-height: 140px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+
+.news-title {
+  font-family: "Reg";
+  font-size: 20px;
+  margin: 3px 2px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.news-title h1 {
+  color: #111111;
+  font-size: 18px;
+}
+
+
+.news-description {
+  font-family: "Thin";
+  font-size: 16px;
+  margin: 2px;
+  width: 100%;
+  color: #333;
+}
+
+.news-description p {
+  margin: 0;
+  color: #111111;
+}
+
+
+.news-card h1,
+.news-card p {
+  text-decoration: none;
+}
+
+
+@font-face {
+  font-family: "Thin";
+  src: url(./fonts/VVDS-Fifties-SExp-Thin.otf);
+}
+
+@font-face {
+  font-family: "Reg";
+  src: url(./fonts/VVDS-Fifties-SExp-Reg.otf);
+}

@@ -1,11 +1,8 @@
 export const dataFakeBigCard = [
   {
     "id": "1",
-    "photoCover": "https://www.sbie.com.br/wp-content/uploads/2016/09/1-frases.jpg",
-    "cardTitle": "De Sonhos à Realidade: Dicas Práticas e Inspirações para SUA Jornada",
-    "cardDescription": `No artigo desta semana, exploramos como transformar sonhos em realidade
-        através de passos práticos e inspirações do dia a dia. Descubra
-        estratégias eficazes para superar obstáculos, manter a motivação e
-        alcançar suas metas.`,
+    "photoCover": "https://th.bing.com/th?id=OVFT.nkXEuAbOHjbuFMh6NEzz1C&pid=News&w=300&h=186&c=14&rs=2&qlt=90",
+    "cardTitle": "Lula Promete Reciprocidade se Trump Taxar Produtos Brasileiros",
+    "cardDescription": `O presidente Luiz Inácio Lula da Silva afirmou que, se os Estados Unidos impuserem tarifas sobre produtos brasileiros, o Brasil responderá da mesma forma.`,
   }
 ]

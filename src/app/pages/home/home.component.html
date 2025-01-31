@@ -1,18 +1,41 @@
 <div class="container-dark">
   <app-menu-bar></app-menu-bar>
   <app-menu-title></app-menu-title>
+
   <div class="container-articles">
-    <div class="articles-main">
+    <!-- Coluna do Big Card -->
+    <div class="articles-column">
       <app-big-card [cardId]="bigCardId"></app-big-card>
     </div>
 
-    <div class="articles-others">
-      <app-small-card
-        *ngFor="let card of smallCards"
-        [cardId]="card.id"
-        [photoCover]="card.photoCover"
-        [cardTitle]="card.title">
-      </app-small-card>
+    <!-- Coluna dos Small Cards -->
+    <div class="articles-column">
+      <div class="small-cards-container">
+        <app-small-card
+          *ngFor="let card of smallCards"
+          [cardId]="card.id"
+          [photoCover]="card.photoCover"
+          [cardTitle]="card.title"
+        ></app-small-card>
+      </div>
     </div>
+  </div>
+
+  <div class="editor">
+    <p>DICAS DO EDITOR</p>
+  </div>
+
+</div>
+
+<div class="news-cards-container">
+  <div *ngFor="let news of newsCards" class="card-with-hr">
+    <app-cards
+      [photo]="news.photo"
+      [title]="news.title"
+      [description]="news.description"
+      [cardId]="news.id"
+    >
+    </app-cards>
+    <div class="vertical-hr"></div>
   </div>
 </div>

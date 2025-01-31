@@ -1,21 +1,67 @@
-.container-big-card {
-
-  margin-left: 20px;
-  margin-right: 20px;
-
-
-  width: 900px;
-  height: 520px;
-
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
+.container-big-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
 }
 
-@font-face {
+.container-big-card {
+  width: 680px;
+  height: 580px;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  background-color: #111111;
+  border-radius: 0.5rem;
+
+  box-shadow: 0 4px 6px -1px rgba(255, 255, 255, 0.2),
+    0 2px 4px -1px rgba(255, 255, 255, 0.1);
+
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.container-big-card:hover {
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2),
+    0 4px 8px rgba(255, 255, 255, 0.1);
+  transform: translateY(-5px);
+}
+
+.big-card-photo img {
+  width: 630px;
+  height: auto;
+  max-height: 300px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.big-card-title {
+  font-size: 15px;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.big-card-title h1 {
+  font-family: "Reg";
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+.big-card-description {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.big-card-description p {
+  font-size: 20px;
   font-family: "Thin";
-  src: url(./fonts/VVDS-Fifties-SExp-Thin.otf);
+  color: gray;
+  margin: 0;
 }
 
 @font-face {
@@ -23,29 +69,7 @@
   src: url(./fonts/VVDS-Fifties-SExp-Reg.otf);
 }
 
-.big-card-title {
-  font-size: 15px;
-  margin-top: 0.5rem;
-}
-
-.big-card-title > h1 > a {
-  font-family: "Reg";
-  margin: 0;
-  padding: 0;
-}
-
-.big-card-description {
-  margin-top: 1rem;
-}
-
-.big-card-description > p > a {
-  font-size: 20px;
+@font-face {
   font-family: "Thin";
-  color: gray;
-}
-
-.big-card-photo > img {
-  width: 100%;
-  min-width: 900px;
-  max-height: 400px;
+  src: url(./fonts/VVDS-Fifties-SExp-Thin.otf);
 }

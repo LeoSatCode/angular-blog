@@ -1,18 +1,52 @@
-
 .container-dark {
-  margin: 0;
+  height: 960px;
+  max-width: 1394px;
+  max-height: 960px;
+  margin: 0 auto;
   padding: 0;
-  width: 1920px;
-  height: 958px;
   background-color: #111111;
+  border-radius: .5rem .5rem 0 0;
 }
 
-
-
-.container-articles{
-  margin-top: 50px;
+.container-articles {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
+  margin-top: 80px;
 }
 
+.articles-column {
+  width: 49%;
+}
+
+.editor p {
+  margin: 20px;
+  font-family: 'Thin';
+  font-size: 15px;
+  font-weight: bolder;
+  color: #111111;
+  max-width: 1394px;
+}
+
+.news-cards-container {
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  margin: 0 auto;
+  max-height: 550px;
+  max-width: 1394px;
+  background-color: lightgrey;
+  border-radius: 0  0 .5rem .5rem;
+}
+
+.card-with-hr {
+  display: flex;
+  align-items: center;
+}
+
+.card-with-hr:not(:last-child) .vertical-hr {
+  width: 2px;
+  height: 345px;
+  background: white;
+  margin: 0 15px;
+}
