@@ -86,13 +86,13 @@
 
 @media (max-width: 1024px) {
   .news-card {
-    width: 160px;
+    width: 162px;
     height: 340px;
     margin-top: 90px;
   }
 
   .news-photo img {
-    width: 160px;
+    width: 162px;
     height: 100px;
 
     border-radius: .5rem;
@@ -108,3 +108,30 @@
   }
 
 }
+
+@media (max-width: 768px) {
+  .news-card {
+    width: 110px;
+    height: 340px;
+    margin-top: 90px;
+
+  }
+
+  .news-photo img {
+    width: 110px;
+    height: 100px;
+
+    border-radius: .5rem;
+
+  }
+
+  .news-title h1 {
+    font-size: 14px;
+  }
+
+  .news-description {
+    font-size: 12px;
+  }
+
+}
+

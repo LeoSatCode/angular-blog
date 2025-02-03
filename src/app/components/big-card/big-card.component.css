@@ -8,7 +8,7 @@
   width: 680px;
   height: 580px;
   margin: 0;
-  padding: 20px;
+  padding: 10px;
   box-sizing: border-box;
 
   display: flex;
@@ -78,13 +78,6 @@
   .container-big-card {
     width: 500px;
     height: 450px;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
   }
 
   .big-card-photo img {
@@ -108,3 +101,15 @@
   }
 }
 
+@media (max-width: 768px) {
+  .container-big-card {
+    width: 95%;
+    height: 45vh;
+    margin-left: 10px;
+  }
+
+  .big-card-photo img {
+    width: 385px;
+    height: 200px;
+  }
+}

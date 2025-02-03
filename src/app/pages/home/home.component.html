@@ -3,13 +3,13 @@
   <app-menu-title></app-menu-title>
 
   <div class="container-articles">
-    <!-- Coluna do Big Card -->
-    <div class="articles-column">
+
+    <div class="big-card-container">
       <app-big-card [cardId]="bigCardId"></app-big-card>
     </div>
 
-    <!-- Coluna dos Small Cards -->
-    <div class="articles-column">
+
+    <div>
       <div class="small-cards-container">
         <app-small-card
           *ngFor="let card of smallCards"
