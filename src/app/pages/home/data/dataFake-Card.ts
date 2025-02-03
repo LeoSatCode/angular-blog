@@ -25,11 +25,5 @@ export const newsCardsData = [
     "title": 'Tecnologia e Bem-Estar: Como as Inovações Digitais Podem Melhorar sua Qualidade de Vida',
     "description": 'Mergulhe no mundo das inovações digitais e veja como apps de saúde e dispositivos vestíveis, podem melhorar sua qualidade de vida, tornando-a mais saudável e equilibrada.',
   },
-  {
-    "id": "9",
-    "photo": 'https://blogassets.leverageedu.com/blog/wp-content/uploads/2019/09/23165152/Co-Curricular-760x475.png',
-    "title": 'Descubra a Alegria dos Hobbies: Benefícios dos Passatempos para sua Saúde Mental',
-    "description": 'Explorar hobbies pode ser uma excelente maneira de relaxar e se desestressar. Conheça como atividades simples como jardinagem, leitura e pintura podem trazer alegria e melhorar sua saúde mental e bem-estar geral.',
-  },
 ];
 

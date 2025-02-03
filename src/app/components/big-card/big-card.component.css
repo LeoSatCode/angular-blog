@@ -95,21 +95,42 @@
 
   .big-card-description p {
     font-size: 18px;
-    font-family: "Thin";
-    color: gray;
-    margin: 0;
   }
 }
 
 @media (max-width: 768px) {
   .container-big-card {
     width: 95%;
-    height: 45vh;
+    height: 394px;
     margin-left: 10px;
   }
 
   .big-card-photo img {
     width: 385px;
     height: 200px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .container-big-card {
+    width: 95vw;
+    height: 305px;
+    margin: 0;
+  }
+
+  .big-card-photo img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+
+  .big-card-title h1 {
+    font-size: 15px;
+
+  }
+
+  .big-card-description p {
+    font-size: 12px;
+    margin-bottom: 1rem;
   }
 }

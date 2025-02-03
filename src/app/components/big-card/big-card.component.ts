@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { dataFakeBigCard } from './data/dataFake-BigCard';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-big-card',

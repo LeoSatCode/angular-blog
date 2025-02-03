@@ -81,7 +81,7 @@
 
 @media (max-width: 768px) {
   .container-small-card {
-    width: 320px;
+    width: 335px;
     height: 116px;
   }
 
@@ -102,5 +102,25 @@
 
   .small-card-title h1 {
     font-size: 16px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .container-small-card {
+    width: 95vw;
+    height: 80px;
+    margin-left: -10px;
+    margin-top: 15px;
+
+  }
+  .small-card-title h1 {
+    font-size: 14px;
+  }
+
+  .small-card-photo img {
+    width: 100px;
+    height: 60px;
+    border-radius: 0.5rem;
+    margin-left: 5px;
   }
 }

@@ -1,13 +1,16 @@
-<a [routerLink]="['/content', cardId]" class="news-card-link">
-  <div class="news-card">
-    <div class="news-photo">
-      <img [src]="photo" alt="Imagem da Notícia" />
+<div class="news-card-container">
+  <a [routerLink]="['/content', cardId]" class="news-card-link">
+    <div class="news-card">
+      <div class="news-photo">
+        <img [src]="photo" alt="Imagem da Notícia" />
+      </div>
+      <div class="news-title">
+        <h1>{{ title }}</h1>
+      </div>
+      <div class="news-description">
+        <p>{{ description }}</p>
+      </div>
     </div>
-    <div class="news-title">
-      <h1>{{ title }}</h1>
-    </div>
-    <div class="news-description">
-      <p>{{ description }}</p>
-    </div>
-  </div>
-</a>
+  </a>
+
+</div>
