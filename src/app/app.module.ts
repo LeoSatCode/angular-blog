@@ -1,7 +1,6 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { BrowserModule, provideClientHydration, withEventReplay } from '@angular/platform-browser';
-
-import { AppRoutingModule } from './app-routing.module';
+import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { MenuTitleComponent } from './components/menu-title/menu-title.component';
@@ -10,6 +9,7 @@ import { SmallCardComponent } from './components/small-card/small-card.component
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { AppRoutingModule } from './app-routing.module';
 import { serverRoutes } from './app.routes.server';
 
 @NgModule({
@@ -26,10 +26,10 @@ import { serverRoutes } from './app.routes.server';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    serverRoutes
+    RouterModule.forRoot(serverRoutes)
   ],
   providers: [
-    provideClientHydration(withEventReplay())
+
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
