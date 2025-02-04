@@ -10,6 +10,7 @@ import { SmallCardComponent } from './components/small-card/small-card.component
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { serverRoutes } from './app.routes.server';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CardsComponent } from './components/cards/cards.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    serverRoutes
   ],
   providers: [
     provideClientHydration(withEventReplay())
